@@ -21,12 +21,12 @@ def get_bot_response(user_response):
       print("I know you're feeling something but I cant tell what that is! Try again please :)")
 
 print ("Hi! I am Chat Bot! I am a program designed to see how you are feeling.")
-print("Are you feeling happy, meh, sad, tired, or excited? ")
+print("Please answer with one of the following! happy, meh, sad, tired, or excited!")
 
 user_response = ""
 
 while True:
-  user_response = input("Are you feeling any different?: ")
+  user_response = input("So, how are you feeling?: ")
   if user_response == 'done':
     break
   bot_response = get_bot_response(user_response)
