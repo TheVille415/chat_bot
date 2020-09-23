@@ -26,7 +26,7 @@ print("Are you feeling happy, meh, sad, tired, or excited? ")
 user_response = ""
 
 while True:
-  user_response = input("How are you feeling today?: ")
+  user_response = input("Are you feeling any different?: ")
   if user_response == 'done':
     break
   bot_response = get_bot_response(user_response)
